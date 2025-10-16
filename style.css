@@ -1,3 +1,56 @@
+:root {
+	/* Colors */
+	--clr-green-800: hsl(167, 40%, 24%);
+	--clr-green-600: hsl(166, 30%, 35%);
+	--clr-green-500: hsl(167, 34%, 41%);
+	--clr-green-300: hsl(168, 44%, 70%);
+
+	--clr-grey-950: hsl(212, 27%, 19%);
+	--clr-grey-600: hsl(213, 9%, 39%);
+	--clr-grey-550: hsl(232, 10%, 55%);
+	--clr-grey-400: hsl(210, 4%, 67%);
+
+	--clr-blue-950: hsl(197, 84%, 13%);
+	--clr-blue-800: hsl(198, 62%, 26%);
+
+	--clr-red: hsl(7, 99%, 70%);
+	--clr-yellow: hsl(51, 100%, 49%);
+	--clr-white: hsl(0, 100%, 100%);
+	--clr-black: hsl(0, 0%, 0%);
+
+	/* Typography */
+
+	--ff-main: 'Fraunces', sans-serif;
+	--ff-secondary: 'Barlow', sans-serif;
+
+	--fw-bold: 900;
+	--fw-normal: 700;
+	--fw-light: 600;
+
+	--fs-1: 56px;
+	--fs-2: 42px;
+	--fs-3: 40px;
+	--fs-4: 32px;
+	--fs-5: 28px;
+	--fs-6: 20px;
+	--fs-7: 18px;
+	--fs-8: 15px;
+	--fs-9: 20px;
+	--fs-10: 18px;
+	--fs-11: 16px;
+	--fs-12: 14px;
+
+	--lh-1: 125%;
+	--lh-2: 165%;
+	--lh-3: 170%;
+	--lh-4: 180%;
+
+	--ls-1: 9px;
+	--ls-2: 6px;
+	--ls-3: 0px;
+	--ls-4: 4px;
+}
+
 /* CSS RESET */
 
 /* 1. Use a more-intuitive box-sizing model */
