@@ -128,3 +128,55 @@ h6 {
 #__next {
 	isolation: isolate;
 }
+
+/* General Styling */
+
+.header {
+	position: relative;
+	min-height: 70vh;
+	background-image: url('images/desktop/image-header.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: var(--clr-white);
+	text-align: center;
+}
+
+.header__top-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 2.25rem 1.5rem;
+}
+
+.header__nav {
+	display: none;
+}
+
+.header__title {
+	font-family: var(--ff-main);
+	font-weight: var(--fw-bold);
+	font-size: var(--fs-2);
+	letter-spacing: var(--ls-2);
+	text-transform: uppercase;
+	line-height: 130%;
+}
+
+.header__arrow {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 13rem;
+}
+
+.agency__grid-text {
+	text-align: center;
+	margin-block: 4rem;
+}
+
+.grid__title {
+	font-family: var(--ff-main);
+	font-size: var(--fs-3);
+	line-height: 90%;
+	font-weight: var(--fw-bold);
+	color: var(--clr-blue-950);
+}
