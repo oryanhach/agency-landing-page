@@ -258,3 +258,13 @@ h6 {
 	padding-inline: 1rem;
 	color: var(--clr-green-600);
 }
+
+.grid__img-text.orange {
+	color: rgb(32, 82, 105);
+	text-align: center;
+	left: 6rem;
+}
+
+.grid__img-footer.orange {
+	color: rgb(32, 82, 105);
+}
