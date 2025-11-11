@@ -29,8 +29,14 @@
     <section class="header__top">
       <section class="header__top-container">
         <img class="header__top-logo" src="images/logo.svg" alt="agency logo">
-        <img class="header__top-menu" src="images/icon-hamburger.svg" alt="agency menu icon">
+        <button id="menu-btn" class="header__top-menu" aria-expanded="false" aria-controls="mobile-menu"
+          aria-label="Open menu">
+          <img src="images/icon-hamburger.svg" alt="" aria-hidden="true">
+        </button>
+        <!-- Bubble menu -->
+
       </section>
+
       <nav class="header__nav">
         <ul>
           <li class="header__nav-item">
@@ -228,5 +234,8 @@
   </footer>
 
 </body>
+
+<script src="app.js"></script>
+
 
 </html>

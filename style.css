@@ -150,6 +150,56 @@ h6 {
 
 .header__nav {
 	display: none;
+	position: absolute;
+	z-index: 2;
+	background-color: var(--clr-white);
+	height: 305px;
+	width: 327px;
+	left: 7%;
+	text-align: center;
+}
+
+.header__nav.is-open {
+	display: block;
+}
+
+.header__nav:after {
+	content: '';
+	position: absolute;
+	top: -1.2rem;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: var(--clr-white);
+	border-top: 0;
+	border-right: 0;
+	margin-left: 8.99rem;
+	margin-bottom: -20px;
+}
+
+.header__nav-item {
+	margin-block-start: 1rem;
+	font-family: var(--ff-secondary);
+	font-weight: var(--fw-light);
+	font-size: var(--fs-6);
+	margin-top: 2rem;
+	margin-right: 2rem;
+}
+
+.header__nav-item a {
+	color: var(--clr-grey-550);
+	text-decoration: none;
+}
+
+.header__nav .header__nav-item:last-child a {
+	padding: 0.85rem 1.6rem;
+	background-color: var(--clr-yellow);
+	color: var(--clr-blue-950);
+	font-family: var(--ff-main);
+	font-weight: var(--fw-bold);
+	letter-spacing: var(--ls-4);
+	border-radius: 28px;
 }
 
 .header__title {
@@ -353,4 +403,10 @@ h6 {
 	justify-content: center;
 	gap: 1.25rem;
 	margin: 5rem 0 3.5rem;
+}
+
+.header__top-menu {
+	background: transparent;
+	border: 0;
+	cursor: pointer;
 }
